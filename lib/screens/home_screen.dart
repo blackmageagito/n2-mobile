@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('To-Do List'),
+        title: const Text('LISTAS DE ATIVIDADES'),
         actions: [
           IconButton(
             icon: const Icon(Icons.person),

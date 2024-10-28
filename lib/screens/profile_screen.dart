@@ -9,13 +9,13 @@ class ProfileScreen extends StatelessWidget {
         title: Text('Configurações de Usuário'),
         actions: [
           IconButton(
-            icon: Icon(Icons.logout), // Ícone de logout
+            icon: Icon(Icons.logout), // faz o logout
             onPressed: () {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
                     builder: (context) =>
-                        LoginScreen()), // Navega para a LoginScreen
+                        LoginScreen()), // direciona para a tela de login
               );
             },
           ),
